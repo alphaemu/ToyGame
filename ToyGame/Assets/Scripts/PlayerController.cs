@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     private Vector3 moveDirection = Vector3.zero;
 
     private float rotationX = 1;
+    private float rotationY = 1; 
 
 
 
@@ -78,9 +79,13 @@ public class PlayerController : MonoBehaviour
         // Apply our final move directon to the player in game using the built in character controller move function 
         characterController.Move(moveDirection * Time.deltaTime);
 
+        // Mouse and Camera Movements
         rotationX += Input.GetAxis("Mouse X") * (Time.deltaTime * 500);
+        rotationY += Input.GetAxis("Mouse Y") * (Time.deltaTime * 500);
+        rotationY = Mathf.Clamp(rotationY, -50, 30);
 
-        transform.rotation = Quaternion.Euler(0, -rotationX, 0);
+        transform.rotation = Quaternion.Euler(rotationY, rotationX, 0); 
+      
     }
 
     public void OnTriggerEnter(Collider other)
