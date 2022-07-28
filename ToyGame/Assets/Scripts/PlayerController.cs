@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -9,17 +10,14 @@ public class PlayerController : MonoBehaviour
     public float jumpSpeed;
     public float gravity;
 
-    // Player Variables
-    public int health;
-    //public GameObject self;
-
     // Camera Variables
     public Camera playerCamera;
     public float lookSpeed = -1f;
     public float lookLimitX = 10;
 
-    // Enemy Variables
+    // Other Variables
     public int collectedPickups;
+	public TextMeshProUGUI collectibleNumber;
 
     private CharacterController characterController;
     private Vector3 moveDirection = Vector3.zero;
@@ -28,11 +26,12 @@ public class PlayerController : MonoBehaviour
     private float rotationY = 1; 
 
 
-
     // Start is called before the first frame update
     void Start()
     {
         characterController = GetComponent<CharacterController>();
+
+	collectibleNumber.text = (collectedPickups.ToString());
 
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
@@ -94,6 +93,7 @@ public class PlayerController : MonoBehaviour
         {
             collectedPickups += 1;
             Debug.Log(collectedPickups.ToString());
+		collectibleNumber.text = (collectedPickups.ToString());
             other.gameObject.SetActive(false);
             // why is Destroy function not workin? 
             Destroy(other);
