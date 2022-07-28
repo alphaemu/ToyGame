@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Pickup
   - NPC
+  - Character1
+  - Character2
   layers:
   - Default
   - TransparentFX
