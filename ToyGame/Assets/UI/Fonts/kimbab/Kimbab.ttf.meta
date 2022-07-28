@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5e35f268c40d19a469c817d10a7c131f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Kimbab
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8b83dc34382c8db408075de12515e0d3, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
