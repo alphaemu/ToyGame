@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public Camera playerCamera;
     public float lookSpeed = -1f;
     public float lookLimitX = 10;
+    
 
     // Enemy Variables
     public int collectedPickups;
