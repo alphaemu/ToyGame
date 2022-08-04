@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,22 +20,23 @@ public class PlayerController : MonoBehaviour
     public float lookLimitX = 10;
     
 
-    // Enemy Variables
+    // Other Variables
     public int collectedPickups;
 
     private CharacterController characterController;
     private Vector3 moveDirection = Vector3.zero;
 
     private float rotationX = 1;
-    private float rotationY = 1; 
+    private float rotationY = 1;
 
-
+    // UI Variables
+    public TextMeshProUGUI heartCounterText;
 
     // Start is called before the first frame update
     void Start()
     {
         characterController = GetComponent<CharacterController>();
-
+        collectedPickups = 0;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
@@ -86,6 +88,8 @@ public class PlayerController : MonoBehaviour
         rotationY = Mathf.Clamp(rotationY, -50, 30);
 
         transform.rotation = Quaternion.Euler(rotationY, rotationX, 0); 
+
+        
       
     }
 
@@ -96,7 +100,13 @@ public class PlayerController : MonoBehaviour
             collectedPickups += 1;
             Debug.Log(collectedPickups.ToString());
             other.gameObject.SetActive(false);
+            heartCounterText.text = collectedPickups.ToString();
             // why is Destroy function not workin? 
+            Destroy(other);
+        }
+        else if (other.gameObject.CompareTag("Dust"))
+        {
+            other.gameObject.SetActive(false);
             Destroy(other);
         }
     }

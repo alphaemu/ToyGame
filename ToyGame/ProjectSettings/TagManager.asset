@@ -8,6 +8,7 @@ TagManager:
   - NPC
   - Character1
   - Character2
+  - Dust
   layers:
   - Default
   - TransparentFX
