@@ -5,18 +5,40 @@ using UnityEngine.UI;
 
 public class DialougeSystem : MonoBehaviour
 {
-    public Text dialogue1;
-    public Text dialogue2; 
+    // Teddy bear dialogues 
+    public Text teddyBearDialogue1;
+    public Text teddyBearDialogue2;
+    public Text teddyBearDialogue3;
+
+    // Penguin dialgoues
+    public Text penguinDialogue1;
+    public Text penguinDialogue2;
+
+    // Gremlin Dialogues 
+    public Text gremlinDialogue;
+
 
     private bool isDialougeChecked;
     private bool character1;
-    private bool character2; 
+    private bool character2;
+
+    // Teddy Bear bools
+    private bool teddyBear1;
+    private bool teddyBear2;
+    private bool teddyBear3;
+
+    // Penguin bools
+    private bool penguin1;
+    private bool penguin2;
+
+    // Gremlin bools
+    private bool gremlin; 
+
 
     // Start is called before the first frame update
     void Start()
     {
-        dialogue1.gameObject.SetActive(false);
-        dialogue2.gameObject.SetActive(false);
+        
         isDialougeChecked = false;
     }
 
@@ -25,15 +47,15 @@ public class DialougeSystem : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && isDialougeChecked == true)
         {
-            if (character1 == true)
+            if (teddyBear1 == true)
             {
-                dialogue1.gameObject.SetActive(true);
+                teddyBearDialogue1.gameObject.SetActive(true);
                 isDialougeChecked = false;
             }
 
-            if(character2 == true)
+            if(penguin1 == true)
             {
-                dialogue2.gameObject.SetActive(true);
+                penguinDialogue1.gameObject.SetActive(true);
                 isDialougeChecked = false;
             }
 
@@ -43,20 +65,33 @@ public class DialougeSystem : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "Character1")
+        if (other.gameObject.tag == "TeddyBear")
         {
             Debug.Log("Press E to start dialouge");
             isDialougeChecked = true;
-            character1 = true; 
-
-
+            teddyBear1 = true; 
         }
 
-        if (other.gameObject.tag == "Character2")
+        if (other.gameObject.tag == "TeddyBear2")
         {
             Debug.Log("Press E to start dialouge");
             isDialougeChecked = true;
-            character2 = true;
+            teddyBear2 = true;
+        }
+
+        if (other.gameObject.tag == "TeddyBear3")
+        {
+            Debug.Log("Press E to start dialouge");
+            isDialougeChecked = true;
+            teddyBear3 = true;
+        }
+
+
+        if (other.gameObject.tag == "Penguin1")
+        {
+            Debug.Log("Press E to start dialouge");
+            isDialougeChecked = true;
+            penguin1 = true;
 
 
         }
@@ -65,22 +100,22 @@ public class DialougeSystem : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
 
-        if (other.gameObject.tag == "Character1")
+        if (other.gameObject.tag == "TeddyBear1")
         {
             //Debug.Log("Press E to start dialouge");
-            dialogue1.gameObject.SetActive(false);
+            teddyBearDialogue1.gameObject.SetActive(false);
             isDialougeChecked = false;
-            character1 = false;
+            teddyBear1 = false;
 
 
         }
 
-        if (other.gameObject.tag == "Character2")
+        if (other.gameObject.tag == "Penguin1")
         {
             //Debug.Log("Press E to start dialouge");
-            dialogue2.gameObject.SetActive(false);
+            penguinDialogue1.gameObject.SetActive(false);
             isDialougeChecked = false;
-            character2 = false;
+            penguin1 = false;
 
 
         }

@@ -9,6 +9,12 @@ TagManager:
   - Character1
   - Character2
   - Dust
+  - Gremlin
+  - TeddyBear1
+  - TeddyBear2
+  - TeddyBear3
+  - Penguin2
+  - Penguin1
   layers:
   - Default
   - TransparentFX
