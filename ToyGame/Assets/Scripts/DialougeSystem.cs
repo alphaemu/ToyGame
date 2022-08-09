@@ -33,7 +33,7 @@ public class DialougeSystem : MonoBehaviour
     private bool penguin2;
 
     // Gremlin bools
-    private bool gremlin; 
+    private bool gremlin;
 
 
     // Start is called before the first frame update
@@ -59,9 +59,33 @@ public class DialougeSystem : MonoBehaviour
                 isDialougeChecked = false;
             }
 
-            if(penguin1 == true)
+            if (penguin1 == true)
             {
                 penguinDialogue1.SetActive(true);
+                isDialougeChecked = false;
+            }
+
+            if (gremlin == true)
+            {
+                gremlinDialogue.SetActive(true);
+                isDialougeChecked = false;
+            }
+
+            if (teddyBear2 == true)
+            {
+                teddyBearDialogue2.SetActive(true);
+                isDialougeChecked = false;
+            }
+
+            if (penguin2 == true)
+            {
+                penguinDialogue2.SetActive(true);
+                isDialougeChecked = false;
+            }
+
+            if (teddyBear3 == true)
+            {
+                teddyBearDialogue3.SetActive(true);
                 isDialougeChecked = false;
             }
 
@@ -69,13 +93,13 @@ public class DialougeSystem : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "TeddyBear1")
         {
             Debug.Log("Press E to start dialouge");
             isDialougeChecked = true;
-            teddyBear1 = true; 
+            teddyBear1 = true;
         }
 
         if (other.gameObject.tag == "TeddyBear2")
@@ -98,36 +122,86 @@ public class DialougeSystem : MonoBehaviour
             Debug.Log("Press E to start dialouge");
             isDialougeChecked = true;
             penguin1 = true;
-
-
         }
-    }
 
-    private void OnTriggerExit(Collider other)
+        if (other.gameObject.tag == "Penguin2")
+        {
+            Debug.Log("Press E to start dialouge");
+            isDialougeChecked = true;
+            penguin2 = true;
+
+            
+        }
+
+        if (other.gameObject.tag == "Gremlin")
+        {
+            Debug.Log("Press E to start dialouge");
+            isDialougeChecked = true;
+            gremlin = true;
+        }
+
+    void OnTriggerExit(Collider other)
     {
 
         if (other.gameObject.tag == "TeddyBear1")
         {
-            //Debug.Log("Press E to start dialouge");
+            Debug.Log("Left Trigger for Teddy Bear 1");
             teddyBearDialogue1.SetActive(false);
             isDialougeChecked = false;
             teddyBear1 = false;
+        }
 
+        if (other.gameObject.tag == "TeddyBear2")
+        {
 
+            teddyBearDialogue2.SetActive(false);
+            isDialougeChecked = false;
+            teddyBear2 = false;
+        }
+
+        if (other.gameObject.tag == "TeddyBear3")
+        {
+
+            teddyBearDialogue3.SetActive(false);
+            isDialougeChecked = false;
+            teddyBear3 = false;
         }
 
         if (other.gameObject.tag == "Penguin1")
         {
-            //Debug.Log("Press E to start dialouge");
+
+
             penguinDialogue1.SetActive(false);
             isDialougeChecked = false;
             penguin1 = false;
 
+        }
+
+        if (other.gameObject.tag == "Penguin2")
+        {
+
+
+            penguinDialogue2.SetActive(false);
+            isDialougeChecked = false;
+            penguin2 = false;
 
         }
+
+        if (other.gameObject.tag == "Gremlin")
+        {
+
+
+            gremlinDialogue.SetActive(false);
+            isDialougeChecked = false;
+            gremlin = false;
+
+        }
+
+        }
+
+
+
+
     }
-
-
-
 
 }

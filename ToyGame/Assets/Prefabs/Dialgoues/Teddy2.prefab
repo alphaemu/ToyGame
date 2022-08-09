@@ -140,7 +140,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: This is the teddy bear's level 1 dialogue.
+  m_text: 'This is the teddy bear''s level 2 dialogue
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c6b383aa29c5aac4582a5c9b86d9e3bc, type: 2}
   m_sharedMaterial: {fileID: 9202263602957123384, guid: c6b383aa29c5aac4582a5c9b86d9e3bc, type: 2}
@@ -219,7 +221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6375804096353692695}
   m_Layer: 5
-  m_Name: Dialogue
+  m_Name: Teddy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
