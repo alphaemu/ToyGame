@@ -94,6 +94,7 @@ public class DialougeSystem : MonoBehaviour
 
 
     void OnTriggerEnter(Collider other)
+
     {
         if (other.gameObject.tag == "TeddyBear1")
         {
@@ -130,7 +131,7 @@ public class DialougeSystem : MonoBehaviour
             isDialougeChecked = true;
             penguin2 = true;
 
-            
+
         }
 
         if (other.gameObject.tag == "Gremlin")
@@ -139,6 +140,10 @@ public class DialougeSystem : MonoBehaviour
             isDialougeChecked = true;
             gremlin = true;
         }
+    }
+
+   
+    
 
     void OnTriggerExit(Collider other)
     {
@@ -196,11 +201,6 @@ public class DialougeSystem : MonoBehaviour
             gremlin = false;
 
         }
-
-        }
-
-
-
 
     }
 
