@@ -140,10 +140,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Hi Sheriff, if you are wondering how to get around this room, I'm the perfect
-    stuffed bear for you! Use your mouse to look around and the arrow keys to move.
-    If you need to get up somewhere higher, use the space bar. Collect all the hearts
-    to complete the level, Good luck!
+  m_text: "Sheriff, steer clear of the canine. I\u2019ve had to get sewed up twice
+    in 2 days because of that mangy mutt. Do you see these patches? You have no idea
+    what these marble eyes have seen, terrible, terrible things. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c6b383aa29c5aac4582a5c9b86d9e3bc, type: 2}
   m_sharedMaterial: {fileID: 9202263602957123384, guid: c6b383aa29c5aac4582a5c9b86d9e3bc, type: 2}
@@ -222,7 +221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6375804096353692695}
   m_Layer: 5
-  m_Name: Teddy1
+  m_Name: Teddy1 Part 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

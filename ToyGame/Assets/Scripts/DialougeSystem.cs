@@ -8,6 +8,7 @@ public class DialougeSystem : MonoBehaviour
 {
     // Teddy bear dialogues 
     public GameObject teddyBearDialogue1;
+    public GameObject teddyBearDialogue1Part2; 
     public GameObject teddyBearDialogue2;
     public GameObject teddyBearDialogue3;
 
@@ -25,6 +26,7 @@ public class DialougeSystem : MonoBehaviour
 
     // Teddy Bear bools
     private bool teddyBear1;
+    private bool teddyBear1part2; 
     private bool teddyBear2;
     private bool teddyBear3;
 
@@ -40,6 +42,7 @@ public class DialougeSystem : MonoBehaviour
     void Start()
     {
         teddyBearDialogue1.SetActive(false);
+        teddyBearDialogue1Part2.SetActive(false); 
         teddyBearDialogue2.SetActive(false);
         teddyBearDialogue3.SetActive(false);
         penguinDialogue1.SetActive(false);
@@ -56,6 +59,12 @@ public class DialougeSystem : MonoBehaviour
             if (teddyBear1 == true)
             {
                 teddyBearDialogue1.SetActive(true);
+                isDialougeChecked = false;
+            }
+
+            if (teddyBear1part2 == true)
+            {
+                teddyBearDialogue1Part2.SetActive(true);
                 isDialougeChecked = false;
             }
 
@@ -101,6 +110,13 @@ public class DialougeSystem : MonoBehaviour
             Debug.Log("Press E to start dialouge");
             isDialougeChecked = true;
             teddyBear1 = true;
+        }
+
+        if (other.gameObject.tag == "TeddyBear1Part2")
+        {
+            Debug.Log("Press E to start dialouge");
+            isDialougeChecked = true;
+            teddyBear1part2 = true;
         }
 
         if (other.gameObject.tag == "TeddyBear2")
@@ -154,6 +170,14 @@ public class DialougeSystem : MonoBehaviour
             teddyBearDialogue1.SetActive(false);
             isDialougeChecked = false;
             teddyBear1 = false;
+        }
+
+        if (other.gameObject.tag == "TeddyBear1Part2")
+        {
+            Debug.Log("Left Trigger for Teddy Bear 1");
+            teddyBearDialogue1Part2.SetActive(false);
+            isDialougeChecked = false;
+            teddyBear1part2 = false;
         }
 
         if (other.gameObject.tag == "TeddyBear2")

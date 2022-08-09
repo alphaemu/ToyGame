@@ -109,8 +109,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 277.72803, y: -317.36063}
-  m_SizeDelta: {x: 1250.7487, y: 290.7956}
+  m_AnchoredPosition: {x: 11, y: -195}
+  m_SizeDelta: {x: 742.0814, y: 69.6359}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6867360327643168195
 CanvasRenderer:
@@ -140,9 +140,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'This is the teddy bear''s level 2 dialogue
-
-'
+  m_text: "*sigh* I told you didnt I? I\u2019m left in the dust once again, literally.
+    I have been stuck in a shoebox under the bed for months. He could at least give
+    us to a new family, I tried talking to the other toys in there but most of their
+    batteries have ran out by now, it\u2019s just a creepy toy graveyard in there
+    *shivers*. \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c6b383aa29c5aac4582a5c9b86d9e3bc, type: 2}
   m_sharedMaterial: {fileID: 9202263602957123384, guid: c6b383aa29c5aac4582a5c9b86d9e3bc, type: 2}
@@ -169,8 +171,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 16
+  m_fontSizeBase: 16
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -226,7 +228,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6375804096353692695
 RectTransform:
   m_ObjectHideFlags: 0

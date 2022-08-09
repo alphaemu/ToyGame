@@ -109,8 +109,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 277.72803, y: -317.36063}
-  m_SizeDelta: {x: 1250.7487, y: 290.7956}
+  m_AnchoredPosition: {x: 29.318817, y: -208.30293}
+  m_SizeDelta: {x: 753.9303, y: 72.6802}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6867360327643168195
 CanvasRenderer:
@@ -140,8 +140,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'This is the only gremlin dialgoue
-
+  m_text: 'Howdy Sheriff! This place sure is great, way better than the flea market
+    at least, no one plays with you in there. Just a bunch of old creepy collectors.
+    When Andy walked in I just knew he would pick me
 
 '
   m_isRightToLeft: 0
@@ -170,8 +171,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
