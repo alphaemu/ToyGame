@@ -6,15 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level1.unity
-    guid: 66b982c7e8e0d294ba673bcafcb04efb
+    path: Assets/Scenes/Title.unity
+    guid: 4ceed70bfcd1e8546984a348026cd3da
   - enabled: 1
-    path: Assets/Scenes/Level2.unity
-    guid: 416f9b113cabd1f4f99b080df31fb99a
+    path: Assets/Scenes/Cutscenes/Cutscene1.unity
+    guid: d41dee040b4072e42ba516451212b615
   - enabled: 1
-    path: Assets/Scenes/Level3.unity
-    guid: c31ae76e3cb047941875ff9a9b353565
+    path: Assets/Scenes/Cutscenes/Cutscene2.unity
+    guid: 94f566c9f3cb6ed488f32b4c9913299e
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene3.unity
+    guid: 94e75fe2f6c082f4a9c0a4e9c4226e59
+  - enabled: 1
+    path: Assets/Scenes/Beta Levels/1_Child.unity
+    guid: 5f5c2e349d3d6f640b52f87b936e8e0e
+  - enabled: 1
+    path: Assets/Scenes/Beta Levels/2_Teen.unity
+    guid: 282c43597efe62b4692061868ddd01b0
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 4af68746bfb1e7d419bebaf6d1c96565
+  - enabled: 0
+    path: Assets/Scenes/Alpha Levels/Level1.unity
+    guid: 66b982c7e8e0d294ba673bcafcb04efb
+  - enabled: 0
+    path: Assets/Scenes/Alpha Levels/Level2.unity
+    guid: 416f9b113cabd1f4f99b080df31fb99a
+  - enabled: 0
+    path: Assets/Scenes/Alpha Levels/Level3.unity
+    guid: c31ae76e3cb047941875ff9a9b353565
   m_configObjects: {}
