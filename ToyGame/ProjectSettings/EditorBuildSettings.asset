@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Beta Levels/2_Teen.unity
     guid: 282c43597efe62b4692061868ddd01b0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 4af68746bfb1e7d419bebaf6d1c96565
   - enabled: 0
