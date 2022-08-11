@@ -109,8 +109,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 32.3482, y: -201}
-  m_SizeDelta: {x: 759.989, y: 91.063}
+  m_AnchoredPosition: {x: -247.73297, y: -311.75964}
+  m_SizeDelta: {x: 1320.1511, y: 312.5824}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6867360327643168195
 CanvasRenderer:
@@ -142,8 +142,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Thank god the dog found me lodged between the wall and mini fridge last
     night, I\u2019ve been stuck in there for 4 months. Thanks for all the help you
-    guys gave me while I was screaming back there, ive got cobwebs in places you
-    couldnt believe. \n"
+    guys gave me while I was screaming back there, I've got cobwebs in places you
+    couldn't believe. \n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c6b383aa29c5aac4582a5c9b86d9e3bc, type: 2}
   m_sharedMaterial: {fileID: 9202263602957123384, guid: c6b383aa29c5aac4582a5c9b86d9e3bc, type: 2}
@@ -170,8 +170,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
