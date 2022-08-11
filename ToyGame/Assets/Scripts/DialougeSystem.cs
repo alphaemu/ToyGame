@@ -198,8 +198,6 @@ public class DialougeSystem : MonoBehaviour
 
         if (other.gameObject.tag == "Penguin1")
         {
-
-
             penguinDialogue1.SetActive(false);
             isDialougeChecked = false;
             penguin1 = false;
@@ -208,7 +206,6 @@ public class DialougeSystem : MonoBehaviour
 
         if (other.gameObject.tag == "Penguin2")
         {
-
 
             penguinDialogue2.SetActive(false);
             isDialougeChecked = false;
