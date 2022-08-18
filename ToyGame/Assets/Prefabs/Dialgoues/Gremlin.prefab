@@ -109,8 +109,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -247.73297, y: -311.75964}
-  m_SizeDelta: {x: 1320.1511, y: 312.5824}
+  m_AnchoredPosition: {x: 282.40186, y: -320.82242}
+  m_SizeDelta: {x: 1253.2927, y: 316.1864}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6867360327643168195
 CanvasRenderer:
@@ -145,8 +145,8 @@ MonoBehaviour:
     guys gave me while I was screaming back there, I've got cobwebs in places you
     couldn't believe. \n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c6b383aa29c5aac4582a5c9b86d9e3bc, type: 2}
-  m_sharedMaterial: {fileID: 9202263602957123384, guid: c6b383aa29c5aac4582a5c9b86d9e3bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 979df44603f30e14786af1e8180d4caf, type: 2}
+  m_sharedMaterial: {fileID: 2683282938865310033, guid: 979df44603f30e14786af1e8180d4caf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -170,8 +170,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 5
+  m_lineSpacing: -30
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0

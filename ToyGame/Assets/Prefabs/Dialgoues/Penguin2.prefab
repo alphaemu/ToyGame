@@ -75,7 +75,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &7463391174608423366
+--- !u!1 &7013699516595152636
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -83,23 +83,23 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7213905917949416370}
-  - component: {fileID: 6867360327643168195}
-  - component: {fileID: 5391126016161534311}
+  - component: {fileID: 175086422232435628}
+  - component: {fileID: 3343162613510161369}
+  - component: {fileID: 6268588509379761297}
   m_Layer: 5
-  m_Name: Dialogue-Text
+  m_Name: Dialogue-Text (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &7213905917949416370
+--- !u!224 &175086422232435628
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7463391174608423366}
+  m_GameObject: {fileID: 7013699516595152636}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -109,24 +109,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 279.5504, y: -315.8355}
-  m_SizeDelta: {x: 1254.3934, y: 299.1703}
+  m_AnchoredPosition: {x: 275.88208, y: -322.23767}
+  m_SizeDelta: {x: 1247.0564, y: 300.5497}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &6867360327643168195
+--- !u!222 &3343162613510161369
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7463391174608423366}
+  m_GameObject: {fileID: 7013699516595152636}
   m_CullTransparentMesh: 1
---- !u!114 &5391126016161534311
+--- !u!114 &6268588509379761297
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7463391174608423366}
+  m_GameObject: {fileID: 7013699516595152636}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -143,10 +143,10 @@ MonoBehaviour:
   m_text: "Do you think Andy will play with us today? *Silence* Probably not I know,
     ever since he got that computer thing he spends all his time there, it\u2019s
     like hes forgetting about us. I can't stop Andy from growing up, but I wouldn't
-    miss it for the world. \n"
+    miss it for the world. "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c6b383aa29c5aac4582a5c9b86d9e3bc, type: 2}
-  m_sharedMaterial: {fileID: 9202263602957123384, guid: c6b383aa29c5aac4582a5c9b86d9e3bc, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 979df44603f30e14786af1e8180d4caf, type: 2}
+  m_sharedMaterial: {fileID: 2683282938865310033, guid: 979df44603f30e14786af1e8180d4caf, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -170,8 +170,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45.2
-  m_fontSizeBase: 45.2
+  m_fontSize: 45
+  m_fontSizeBase: 45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 5
+  m_lineSpacing: -30
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -13.32885, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -240,7 +240,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6862304239034357372}
-  - {fileID: 7213905917949416370}
+  - {fileID: 175086422232435628}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
