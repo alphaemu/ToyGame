@@ -457,7 +457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 357}
+  m_AnchoredPosition: {x: 0, y: 426.71}
   m_SizeDelta: {x: 1389.6449, y: 226.5743}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &660046888
@@ -657,7 +657,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 25, y: 198.52762}
+  m_AnchoredPosition: {x: 22, y: 268.24}
   m_SizeDelta: {x: 1638.8042, y: 90.3705}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1353627154
@@ -876,8 +876,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030517, y: 3.2745}
-  m_SizeDelta: {x: 1287.8115, y: 300.1357}
+  m_AnchoredPosition: {x: 6.8922, y: 12.7567}
+  m_SizeDelta: {x: 1301.596, y: 420.5963}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1675964430
 MonoBehaviour:
@@ -900,7 +900,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Use WASD or Arrow Keys to move, and the mouse to control the camera. You
-    can jump using the 'SPACE' bar, and climb objects by jumping on slopes.
+    can jump using the 'SPACE' bar, and climb objects by jumping on slopes. You can
+    interact with characters by pressing 'E' if they have an icon above their heads.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c6b383aa29c5aac4582a5c9b86d9e3bc, type: 2}
   m_sharedMaterial: {fileID: 9202263602957123384, guid: c6b383aa29c5aac4582a5c9b86d9e3bc, type: 2}
@@ -1013,7 +1014,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030517, y: -312}
+  m_AnchoredPosition: {x: 0.000030517, y: -415}
   m_SizeDelta: {x: 680.3417, y: 161.79}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1768220263

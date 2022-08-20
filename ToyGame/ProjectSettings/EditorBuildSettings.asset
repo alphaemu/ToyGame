@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Beta Levels/3_Adult.unity
     guid: f6db4bb013e08944ba218d9691c651a9
   - enabled: 0
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/Credits.unity
     guid: 4af68746bfb1e7d419bebaf6d1c96565
   - enabled: 0
     path: Assets/Scenes/Alpha Levels/Level1.unity
