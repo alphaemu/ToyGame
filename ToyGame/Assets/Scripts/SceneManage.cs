@@ -18,6 +18,8 @@ public class SceneManage : MonoBehaviour
         Debug.Log(playerController.collectedPickups.ToString());
         levelButton.SetActive(false);
         levelCompletion = false;
+        
+        
     }
 
     public void Update()

@@ -23,6 +23,11 @@ public class PlayerController : MonoBehaviour
     // Other Variables
     public int collectedPickups;
 
+    public AudioSource jumpSound;
+    public AudioSource pickUpSound; 
+
+    
+
     private CharacterController characterController;
     private Vector3 moveDirection = Vector3.zero;
 
@@ -39,6 +44,8 @@ public class PlayerController : MonoBehaviour
         collectedPickups = 0;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        
     }
 
     // Update is called once per frame
@@ -62,6 +69,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetButton("Jump") && characterController.isGrounded)
         {
             moveDirection.y = jumpSpeed;
+            jumpSound.Play(); 
         }
         // Stop adding vertical movement while the player is not jumping 
         else
@@ -98,6 +106,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Pickup"))
         {
             collectedPickups += 1;
+            pickUpSound.Play();
             Debug.Log(collectedPickups.ToString());
             other.gameObject.SetActive(false);
             heartCounterText.text = collectedPickups.ToString();
