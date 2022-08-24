@@ -140,10 +140,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Do you think Andy will play with us today? *Silence* Probably not I know,
-    ever since he got that computer thing he spends all his time there, it\u2019s
-    like hes forgetting about us. I can't stop Andy from growing up, but I wouldn't
-    miss it for the world. "
+  m_text: "Do you think Randy will play with us today? ...probably not, I know. Ever
+    since he got that computer thing he spends all his time there - it\u2019s like
+    hes forgetting about us. I can't stop Randy from growing up, but I wouldn't miss
+    it for the world. "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 979df44603f30e14786af1e8180d4caf, type: 2}
   m_sharedMaterial: {fileID: 2683282938865310033, guid: 979df44603f30e14786af1e8180d4caf, type: 2}

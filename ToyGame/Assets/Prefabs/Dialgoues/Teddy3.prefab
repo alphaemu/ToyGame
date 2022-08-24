@@ -140,11 +140,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "*sigh* I told you didnt I? I\u2019m left in the dust once again, literally.
-    I have been stuck in a shoebox under the bed for months. He could at least give
-    us to a new family, I tried talking to the other toys in there but most of their
-    batteries have ran out by now, it\u2019s just a creepy toy graveyard in there
-    *shivers*. "
+  m_text: " I told you, didn't I? I\u2019m left in the dust once again, literally.
+    I have been stuck in a under this bed for months. He could at least give us to
+    a new family, I tried talking to the other toys in here but most of their batteries
+    have ran out by now, so it\u2019s just a creepy toy graveyard in there."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 979df44603f30e14786af1e8180d4caf, type: 2}
   m_sharedMaterial: {fileID: 2683282938865310033, guid: 979df44603f30e14786af1e8180d4caf, type: 2}
@@ -171,8 +170,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

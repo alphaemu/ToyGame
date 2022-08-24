@@ -219,6 +219,8 @@ MonoBehaviour:
   lookSpeed: 1
   lookLimitX: 33
   collectedPickups: 0
+  jumpSound: {fileID: 0}
+  pickUpSound: {fileID: 0}
   heartCounterText: {fileID: 0}
 --- !u!114 &4060404151987066050
 MonoBehaviour:
@@ -232,8 +234,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b11fe578038a4a44083f71e7c55ac67f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue1: {fileID: 0}
-  dialogue2: {fileID: 0}
+  teddyBearDialogue1: {fileID: 0}
+  teddyBearDialogue1Part2: {fileID: 0}
+  teddyBearDialogue2: {fileID: 0}
+  teddyBearDialogue3: {fileID: 0}
+  penguinDialogue1: {fileID: 0}
+  penguinDialogue2: {fileID: 0}
+  gremlinDialogue: {fileID: 0}
+  notifBear1: {fileID: 0}
+  notifBear2: {fileID: 0}
+  notifBear3: {fileID: 0}
+  notifPenguin1: {fileID: 0}
+  notifPenguin2: {fileID: 0}
+  notifGremlin: {fileID: 0}
 --- !u!114 &2256817737951152122
 MonoBehaviour:
   m_ObjectHideFlags: 0

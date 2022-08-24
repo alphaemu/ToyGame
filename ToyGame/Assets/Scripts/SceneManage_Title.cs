@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class SceneManage_Title : MonoBehaviour
 {
 
+    public string sceneNamePress;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,13 @@ public class SceneManage_Title : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene(sceneNamePress);
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 }

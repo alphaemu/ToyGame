@@ -141,8 +141,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "I\u2019m not loving the new guys, that computer mouse has a real attitude
-    problem. Why is it the technologies think they\u2019re above everyone now? It\u2019s
-    because Andy plays with them more, isnt it? I can see where this is going sheriff,
+    problem. Why do those techno-guys think they\u2019re above everyone now? It\u2019s
+    because Randy plays with them more, isnt it? I can see where this is going, sheriff.
     I\u2019ve seen this story a thousand times. Like I said, these marble eyes have
     seen more than you can imagine. "
   m_isRightToLeft: 0
@@ -171,8 +171,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
